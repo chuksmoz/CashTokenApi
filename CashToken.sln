@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashToken", "CashToken\CashToken.csproj", "{0DB92D25-A75B-4345-AE76-D9927BA6F335}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashToken.Api", "CashToken.Api\CashToken.Api.csproj", "{DDC79498-09C1-42BC-9CD5-7FFE1228AF6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashToken.Domain", "CashToken.Domain\CashToken.Domain.csproj", "{ACEE58A3-C600-4642-94A0-39EFECE28AE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashToken.Services", "CashToken.Services\CashToken.Services.csproj", "{5150D82D-BB64-47A2-87E9-D423541B73E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CashToken.Repository", "CashToken.Repository\CashToken.Repository.csproj", "{F8D8E8B1-6EDF-4827-85A1-C9670B0FD277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +17,22 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0DB92D25-A75B-4345-AE76-D9927BA6F335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0DB92D25-A75B-4345-AE76-D9927BA6F335}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0DB92D25-A75B-4345-AE76-D9927BA6F335}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0DB92D25-A75B-4345-AE76-D9927BA6F335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDC79498-09C1-42BC-9CD5-7FFE1228AF6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDC79498-09C1-42BC-9CD5-7FFE1228AF6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDC79498-09C1-42BC-9CD5-7FFE1228AF6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDC79498-09C1-42BC-9CD5-7FFE1228AF6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACEE58A3-C600-4642-94A0-39EFECE28AE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACEE58A3-C600-4642-94A0-39EFECE28AE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACEE58A3-C600-4642-94A0-39EFECE28AE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACEE58A3-C600-4642-94A0-39EFECE28AE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5150D82D-BB64-47A2-87E9-D423541B73E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5150D82D-BB64-47A2-87E9-D423541B73E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5150D82D-BB64-47A2-87E9-D423541B73E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5150D82D-BB64-47A2-87E9-D423541B73E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8D8E8B1-6EDF-4827-85A1-C9670B0FD277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8D8E8B1-6EDF-4827-85A1-C9670B0FD277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8D8E8B1-6EDF-4827-85A1-C9670B0FD277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8D8E8B1-6EDF-4827-85A1-C9670B0FD277}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
